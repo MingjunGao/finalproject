@@ -1,3 +1,5 @@
+
+//player catches fruits, save it for the final boss 
 class CaughtFruit {
   float x, y; 
   float r; 
@@ -14,7 +16,7 @@ class CaughtFruit {
   void display() {
     image(imgfruit, x, y, r, r);
   }
-  void eat() {
+  void eat() {//boss eats  
     speed = 0; 
     y = -1300;
   }

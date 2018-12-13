@@ -1,3 +1,5 @@
+//shoot beans
+
 class M {
   float r; 
   float x, y;
@@ -13,6 +15,7 @@ class M {
     x += speed;
   }
   void display() {
+    
     image(imgM, x+50, y+10, r, r);
   }
 
@@ -24,6 +27,7 @@ class M {
       return false;
     }
   }
+  //if ate, no speed 
   void ate() {
     speed = 0; 
     x = -1800;
